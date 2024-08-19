@@ -32,7 +32,7 @@ const DOCK_ICONS = [
     label: "Documentation",
   },
   {
-    href: "",
+    href: "https://www.npmjs.com/package/@requestnetwork/payment-widget",
     icon: Package,
     label: "NPM Package",
   },
