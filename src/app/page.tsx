@@ -31,7 +31,7 @@ export default function Home() {
         <section className="flex flex-col gap-2">
           <h2 className="font-bold text-2xl my-4">Playground</h2>
           <p>
-            he playground on this page lets you experiment with the widget
+            The playground on this page lets you experiment with the widget
             firsthand. You can enter different values for the widget's
             properties, such as seller information, product details, and
             supported currencies. As you adjust these settings, you'll see how
