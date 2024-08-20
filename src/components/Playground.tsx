@@ -87,7 +87,7 @@ const YourComponent = () => {
   };
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 mt-4">
       <section className="flex flex-col items-center md:items-start md:justify-between md:flex-row">
         <div className="flex flex-col gap-4 w-1/2">
           {/* Seller Info */}

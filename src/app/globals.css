@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
+p,
+li {
   color: #74747d;
 }
