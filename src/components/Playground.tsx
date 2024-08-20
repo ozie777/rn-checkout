@@ -197,6 +197,7 @@ const YourComponent = () => {
             image: formValues.productInfo?.image,
             name: formValues.productInfo?.name,
           }}
+          builderId="request-checkout"
           sellerAddress={formValues.sellerAddress}
           // @ts-ignore
           supportedCurrencies={formValues.supportedCurrencies}
