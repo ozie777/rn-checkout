@@ -197,7 +197,7 @@ const YourComponent = () => {
             image: formValues.productInfo?.image,
             name: formValues.productInfo?.name,
           }}
-          builderId="request-checkout"
+          builderId={process.env.NEXT_PUBLIC_BUILDER_ID}
           sellerAddress={formValues.sellerAddress}
           // @ts-ignore
           supportedCurrencies={formValues.supportedCurrencies}
