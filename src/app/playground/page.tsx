@@ -1,9 +1,15 @@
 import { Playground } from "@/components/Playground";
 
-export default function Home() {
+export const metadata = {
+  title: "Request Checkout Playground",
+  description:
+    "A playground for the Request Checkout widget. You can experiment with the widget's properties, such as seller information, product details, and supported currencies.",
+};
+
+export default function PlaygroundPage() {
   return (
-    <main className="flex flex-col gap-4 max-w-[1200px] w-full mx-auto px-5 py-8">
-      <h1 className="font-bold text-4xl mb-4">Request Checkout</h1>
+    <>
+      <h1 className="font-bold text-4xl mb-4">Request Checkout Playground</h1>
 
       <div className="flex flex-col gap-2">
         <p>
@@ -46,6 +52,6 @@ export default function Home() {
           <Playground />
         </section>
       </div>
-    </main>
+    </>
   );
 }
